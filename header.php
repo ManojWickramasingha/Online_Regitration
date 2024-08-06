@@ -46,8 +46,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
                     <a href="Home.php" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="classes.html" class="nav-item nav-link">Courses</a>
+                    <a href="about.php" class="nav-item nav-link">About Us</a>
+                    <a href="classes.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
