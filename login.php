@@ -36,7 +36,8 @@
 
           <!-- Email input -->
           <div data-mdb-input-init class="form-outline mb-4">
-          <input size="40"  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" value="" type="text" name="uid">
+          <input type="text" value=""  name="uid" class="form-control form-control-lg"
+          placeholder="Enter password" />
             <label class="form-label" for="form3Example3">Email address</label>
           </div>
 

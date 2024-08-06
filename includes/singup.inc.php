@@ -22,7 +22,7 @@
         $invalidUid = invalidUid($Uid);
         $invalidEmail = invalidEmail($email);
         $pwdMatch = pwdMath($userPassword,$userConfirmPassword);
-        $uidExits = uidExits($conn, $userName,$email);
+        $uidExits = uidExits($conn,$email, $Uid);
 
 
         if($emptyInput !== false){

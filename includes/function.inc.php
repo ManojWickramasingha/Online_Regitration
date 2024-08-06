@@ -59,9 +59,9 @@ function pwdMath($userPassword,$userConfirmPassword)
 
 }
 
-function uidExits($conn,$email)
+function uidExits($conn,$email, $Uid)
 {
-    $sql = "SELECT * FROM users WHERE usersEmail = ?;";
+    $sql = "SELECT * FROM users WHERE usersEmail = ? OR usersUld = ?;";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql))
     {
@@ -69,7 +69,7 @@ function uidExits($conn,$email)
         exit();
     }
 
-    mysqli_stmt_bind_param($stmt, "s",$email);
+    mysqli_stmt_bind_param($stmt, "ss",$email,$Uid);
     mysqli_stmt_execute($stmt);
     $resultData = mysqli_stmt_get_result($stmt);
 
@@ -109,8 +109,7 @@ function emptyInputLogin($username, $password)
 {
 
     $result;
-    if(empty($userName) || empty($password))
-    {
+    if(empty($username) || empty($password)){
         $result = true;
 
     }else{
@@ -122,10 +121,10 @@ function emptyInputLogin($username, $password)
 
 function loginUser($conn,$username,$password)
 {
-    $ExistUser = uidExits($conn,$username);
-    if($ExistUser !== false)
+    $ExistUser = uidExits($conn,$username,$username);
+    if($ExistUser === false)
     {
-        header('Location:../Register.php?error=wronglogin');
+        header('Location:../Register.php?error=wronglogin1');
         exit();
     }
     $pwHashed = $ExistUser["usersPassword"];
@@ -133,15 +132,15 @@ function loginUser($conn,$username,$password)
 
     if($checkPw === false)
     {
-        header('Location:../Register.php?error=wrongLogin');
+        header('Location:../Register.php?error=wrongLogin2');
         exit();
     }
     elseif($checkPw === true)
     {
         session_start();
         $_SESSION["userid"] = $ExistUser["usersId "];
-        $_SESSION["useruid"] = $ExistUser["usersUld"];
-        header("Location:../index.php");
+        $_SESSION["useruid"] = $ExistUser["usersUId"];
+        header("Location:../Home.php");
         exit();
     }
 }

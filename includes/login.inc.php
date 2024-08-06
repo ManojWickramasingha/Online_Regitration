@@ -8,7 +8,7 @@
 
         $isEmpty = emptyInputLogin($username, $password);
 
-        if($isEmpty === false){
+        if($isEmpty !== false){
             header("location:../login.php?error=empty");
             exit();
         }

@@ -45,7 +45,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="Home.php" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About Us</a>
                     <a href="classes.html" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
