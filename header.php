@@ -45,22 +45,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
-                    <a href="Home.php" class="nav-item nav-link">Home</a>
+                    <a href="index.php" class="nav-item nav-link">Home</a>
                     <a href="about.php" class="nav-item nav-link">About Us</a>
                     <a href="classes.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
-                            <a href="facility.html" class="dropdown-item">University Facilities</a>
-                            <a href="team.html" class="dropdown-item">Popular lecturers</a>
-                            <a href="call-to-action.html" class="dropdown-item">Become A Student</a>
-                            <a href="appointment.html" class="dropdown-item active">Join with us</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="facility.php" class="dropdown-item">University Facilities</a>
+                            <a href="team.php" class="dropdown-item">Popular lecturers</a>
+                            <a href="call-to-action.php" class="dropdown-item">Become A Student</a>
+                            <a href="appointment.php" class="dropdown-item active">Join with us</a>
+                            <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                             
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                 </div>
+                <a href="register.php" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us</a>
                 
             </div>
         </nav>

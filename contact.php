@@ -44,11 +44,11 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
                     <a href="index.php" class="nav-item nav-link">Home</a>
-                    <a href="about.php" class="nav-item nav-link active">About Us</a>
+                    <a href="about.php" class="nav-item nav-link">About Us</a>
                     <a href="classes.php" class="nav-item nav-link">Courses</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 m-0">
                             
                             <a href="team.php" class="dropdown-item">Popular lecturers</a>
                             <a href="call-to-action.php" class="dropdown-item">Become A Student</a>
@@ -57,7 +57,7 @@
                             
                         </div>
                     </div>
-                    <a href="contact.php" class="nav-item nav-link">Contact Us</a>
+                    <a href="contact.php" class="nav-item nav-link active">Contact Us</a>
                 </div>
                 <a href="register.php" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
@@ -68,12 +68,12 @@
         <!-- Page Header End -->
         <div class="container-xxl py-5 page-header position-relative mb-5">
             <div class="container py-5">
-                <h1 class="display-2 text-white animated slideInDown mb-4">About Us</h1>
+                <h1 class="display-2 text-white animated slideInDown mb-4">Contact Us</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Contact Us</li>
                     </ol>
                 </nav>
             </div>
@@ -81,100 +81,85 @@
         <!-- Page Header End -->
 
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
-                        <p>Our institution offers a global education experience, fostering competitive individuals through expert lecturers, holistic development, and state-of-the-art facilities, preparing students for success in an interconnected world.</p>
-                        <p class="mb-4">Unleash the potential of tomorrow with our visionary leadership team. Comprising seasoned leaders with a passion for education, they steer our institution towards new heights. Their strategic vision and unwavering commitment inspire a culture of excellence and innovation. Join us as we chart a course for success under their dynamic guidance!</p>
-                        <div class="row g-4 align-items-center">
-                            <div class="col-sm-6">
-                                <a class="btn btn-primary rounded-pill py-3 px-5" href="">Read More</a>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
-                                    <div class="ms-3">
-                                        <h6 class="text-primary mb-1">Jhon Doe</h6>
-                                        <small>CEO & Founder</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/about-1.jpg" alt="">
-                            </div>
-                            <div class="col-6 text-start" style="margin-top: -150px;">
-                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-2.jpg" alt="">
-                            </div>
-                            <div class="col-6 text-end" style="margin-top: -150px;">
-                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/about-3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Call To Action Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="bg-light rounded">
-                    <div class="row g-0">
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
-                            <div class="position-relative h-100">
-                                <img class="position-absolute w-100 h-100 rounded" src="img/call-to-action.jpg" style="object-fit: cover;">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="h-100 d-flex flex-column justify-content-center p-5">
-                                <h1 class="mb-4">Become A Student</h1>
-                                <p class="mb-4">Embarking on your academic journey at Edu Institute is not just about education; it's about embracing a vibrant and enriching student life. We understand that a conducive environment enhances learning, and at ESOFT, we go above and beyond to ensure our students thrive in every aspect of their academic pathway.
-                                </p>
-                                <a class="btn btn-primary py-3 px-5" href="register.html">Get Started Now<i class="fa fa-arrow-right ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call To Action End -->
-
-
-        <!-- Team Start -->
+        <!-- Contact Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Start with us</h1>
-                    <p>"We don't just offer courses; we pave the way for your success. As you embark on your career journey with us, you will discover a plethora of opportunities to enhance your skills, broaden your horizons and shape a fulfilling career pathway."</p>
+                    <h1 class="mb-3">Get In Touch</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit
+                        eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item position-relative">
-                            <img class="img-fluid rounded-circle w-75" src="img/team-1.jpg" alt="">
-                            <div class="team-text">
-                                <h3>Mrs. Fernando</h3>
-                                <p>HOD - Information Technology</p>
-                                <div class="d-flex align-items-left">
-                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-primary  mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                        </div>
+                        <h6>12, Wall St, Colombo-05</h6>
+                    </div>
+                    <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-envelope-open fa-2x text-primary"></i>
+                        </div>
+                        <h6>info@edu.mail.com</h6>
+                    </div>
+                    <div class="col-md-6 col-lg-4 text-center wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="bg-light rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 75px; height: 75px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <h6>+942 345 6789</h6>
+                    </div>
+                </div>
+                <div class="bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="h-100 d-flex flex-column justify-content-center p-5">
+                                <p class="mb-4">
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                                <label for="name">Your Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                <label for="email">Your Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                                                <label for="subject">Subject</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                            <div class="position-relative h-100">
+                                <iframe class="position-relative rounded w-100 h-100"
+                                src="img\Screenshot 2024-07-25 161602.png"
+                                frameborder="0" style="min-height: 400px; border:0;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+        <!-- Contact End -->
 
 
         <!-- Footer Start -->
@@ -183,8 +168,8 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h3 class="text-white mb-4">Get In Touch</h3>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>12, Wall St, Colombo-05</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+942 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@edu.mail.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
@@ -238,7 +223,7 @@
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Edu Institute</a>, All Right Reserved. 
 							
-							
+
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
